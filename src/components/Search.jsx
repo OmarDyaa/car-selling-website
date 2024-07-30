@@ -39,7 +39,7 @@ const Search = ({onFilterCountry , onFilterCategory , onFilterVendor}) => {
       <div>
         <select  onChange= {(e)=> onFilterCategory(e.target.value)} className="bg-transparent  w-full border border-gray-50 rounded-md  outline-0 focus:ring foucs:ring-indigo-200">
           <option value="">All Categories</option>
-          <option value="Sidan">Sidan</option>
+          <option value="Sedan">Sedan</option>
           <option value="SUV">SUV</option>
           <option value="Truck">Truck</option>
           <option value="Electric">Electric</option>
