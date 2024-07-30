@@ -21,8 +21,9 @@ const Home = ({ cars }) => {
   let filteredCars = cars.filter((car)=>{
     return(country ==="" || car.country=== country) &&(category==="" || car.category===category)  &&( vendor==="" || vendor === car.vendor )
   });
+ 
 
-  // ! It isnot right 
+  // ! It isn't right 
     // if(country==="" && category==="")  filteredCars=cars;
     // if(country==="US" && category==="SUV") filteredCars=cars.filter((car)=> car.country==="US") 
     // if(country==="CA") filteredCars=cars.filter((car)=> car.country==="CA") 
